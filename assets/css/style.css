@@ -39,7 +39,7 @@ body {
 }
 
 h1 {
-    font-size: 8rem; 
+    font-size: 5rem; 
     color: var(--h1-title-color);
 }
 
@@ -55,7 +55,8 @@ p {
 }
 
 .logo img {
-    width: 70rem;
+    width: 20rem;
+    object-fit: contain;
 }
 
 .carregando {
@@ -68,7 +69,7 @@ p {
 }
 
 .progressbar {
-    width: 36rem;
+    width: 90%;
     height: 1.2rem;
     background-color: #d1d1d1;
     margin: auto;
@@ -133,4 +134,25 @@ p {
         width: min(150rem, 95%);
         display: grid;
     }
+
+    .logo img {
+        width: 70rem;
+        object-fit: contain;
+    }
+
+    h1 {
+        font-size: 8rem; 
+        color: var(--h1-title-color);     
+    }
+
+    .progressbar {
+        width: 36rem;
+        height: 1.2rem;
+        background-color: #d1d1d1;
+        margin: auto;
+        margin-bottom: 10rem;
+        opacity: .8;
+        position: relative;
+    }
+    
 }
